@@ -1,0 +1,17 @@
+{
+    "name": "Gigs",
+    "alias": "gigs",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 1,
+    "providers": [
+        "Modules\\Gigs\\Providers\\GigsServiceProvider",
+        "Modules\\Gigs\\Providers\\EventServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

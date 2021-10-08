@@ -1,0 +1,16 @@
+{
+    "name": "Lovs",
+    "alias": "lovs",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 1,
+    "providers": [
+        "Modules\\Lovs\\Providers\\LovsServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

@@ -1,0 +1,16 @@
+{
+    "name": "States",
+    "alias": "states",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 1,
+    "providers": [
+        "Modules\\States\\Providers\\StatesServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

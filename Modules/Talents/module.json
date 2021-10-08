@@ -1,0 +1,16 @@
+{
+    "name": "Talents",
+    "alias": "talents",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 1,
+    "providers": [
+        "Modules\\Talents\\Providers\\TalentsServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

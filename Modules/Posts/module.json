@@ -1,0 +1,17 @@
+{
+    "name": "Posts",
+    "alias": "posts",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 1,
+    "providers": [
+        "Modules\\Posts\\Providers\\PostsServiceProvider",
+        "Modules\\Posts\\Providers\\EventServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

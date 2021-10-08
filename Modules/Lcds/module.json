@@ -1,0 +1,16 @@
+{
+    "name": "Lcds",
+    "alias": "lcds",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 1,
+    "providers": [
+        "Modules\\Lcds\\Providers\\LcdsServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

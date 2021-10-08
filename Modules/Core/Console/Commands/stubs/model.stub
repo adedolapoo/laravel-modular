@@ -1,0 +1,17 @@
+<?php namespace $NAMESPACE$;
+
+use Modules\Core\Entities\Base;
+use Modules\Core\Presenters\PresentableTrait;
+use Modules\Core\Traits\ApiModelTrait;
+
+class $CLASS$ extends Base {
+
+    use PresentableTrait, ApiModelTrait;
+
+    protected $presenter = '$MODULE_NAMESPACE$\$STUDLY_NAME$\Presenters\ModulePresenter';
+
+    protected $guarded = ['_token','exit'];
+
+    public $attachments = ['image'];
+
+}
